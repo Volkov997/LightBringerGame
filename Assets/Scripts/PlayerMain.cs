@@ -16,12 +16,13 @@ public class PlayerMain : MonoBehaviour
 
     private CharacterController _cc;
     private Vector3 _velocity;
-    private Vector3 _forces;
+    private Vector3 _accel = Vector3.zero;
 
     private PlayerInput _playerInput;
     private Vector2 _moveInput;
     private Vector2 _lookInput;
     private Vector3 _movedir;
+    private bool _jump;
 
     private Camera _cam;
     private float _sensitivity = 30f;
@@ -51,16 +52,14 @@ public class PlayerMain : MonoBehaviour
     public void OnAttack(InputValue value){}
     public void OnInteract(InputValue value){}
     public void OnCrouch(InputValue value){}
-    public void OnJump(InputValue value){}
-
     // Update is called once per frame
     void Update()
     {
-        _forces = Vector3.zero;
-
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         HandleMovement();
+
+        _accel = Vector3.zero;
     }
 
     void HandleMovement()
@@ -69,13 +68,15 @@ public class PlayerMain : MonoBehaviour
 
         if (!_cc.isGrounded)
         {
-            _forces += Physics.gravity;
+            _accel += Physics.gravity;
+        } else if(_playerInput.actions["Jump"].IsPressed()){
+            //impulse of 0.6s of gravity
+            _velocity.y = -Physics.gravity.y * 0.6f;
         }
 
         //look
-        _xRotation = _lookInput.x * _sensitivity * dT;
-        _yRotation = _lookInput.y * _sensitivity * dT;
-        _yRotation = Mathf.Clamp(_yRotation, -80f, 80f);
+        _xRotation = Mathf.Lerp(_xRotation, _lookInput.x * _sensitivity * dT, 0.2f);
+        _yRotation = Mathf.Lerp(_yRotation, _lookInput.y * _sensitivity * dT, 0.2f);
 
         var signedYAngle = (_cam.transform.localEulerAngles.x + 180f) % 360f - 180f;
         if ((_yRotation >= 0 || signedYAngle <= 80f) && (_yRotation < 0 || signedYAngle >= -80f))
@@ -94,9 +95,8 @@ public class PlayerMain : MonoBehaviour
         moveSpeed = sprinting ? 10f : 5f;
         //movement work
         var dV = (targetMovedir * moveSpeed - _velocity);
-        _forces += new Vector3(dV.x,0f,dV.z) * (_cc.isGrounded ? 18f : 5f);
-        //drag force
-        _velocity += _forces * dT;
+        _accel += new Vector3(dV.x,0f,dV.z) * (_cc.isGrounded ? 18f : 5f);
+        _velocity += _accel * dT;
         _cc.Move(_velocity * dT);
     }
 }
