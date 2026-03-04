@@ -55,12 +55,13 @@ Shader "Custom/LightArea"
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 col = _Color;
-                float heightFactor = clamp(i.worldPos.y*3,0,1);
+                //float heightFactor = clamp(i.worldPos.y*3,0,1);
                 float clipFactor = clamp(length(i.ray)/3-0.5,0,1);
                 float thicknessFactor = clamp((((1.1/(pow(i.pdiscance,2)+0.1))-1)-0.1)/100 ,0,1);
                 //float thicknessFactor = clamp(pow(i.pdiscance,2),0,1);
                 //float thicknessFactor = clamp(pow(1-abs(dot(i.normal, normalize(ray))),4),0,1);
-                col.a = 0.2*thicknessFactor*heightFactor*clipFactor;
+                col.a = 0.2*thicknessFactor*clipFactor;//*heightFactor;
+                //return fixed4(1,0,0.8,1);
                 return col;
             }
             ENDCG

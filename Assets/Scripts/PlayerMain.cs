@@ -66,6 +66,8 @@ public class PlayerMain : MonoBehaviour
     {
         var dT = Time.deltaTime;
 
+        //_accel += transform.position.normalized * -100.1f;
+
         if (!_cc.isGrounded)
         {
             _accel += Physics.gravity;

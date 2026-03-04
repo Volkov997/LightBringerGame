@@ -23,7 +23,7 @@ Shader "Custom/Lights_PPS"
             float4 Frag (Varyings input) : SV_Target
             {
                 float4 color = SAMPLE_TEXTURE2D(_BlitTexture, sampler_LinearClamp, input.texcoord).rgba;
-                return float4(1, 0.8, 0.2, 1)*color+(1-float4(1, 0.4, 0, 1))*0.005f; 
+                return float4(1, 0.8f, 0.2f, 1)*color+(1-float4(1, 0.4, 0, 1))*0.005f; 
             }
             ENDHLSL
         }

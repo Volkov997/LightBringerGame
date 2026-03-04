@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: New ShaderGraph Fullscreen
+  m_Title: Git for Unity
   m_RootView: {fileID: 11}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 244
+  controlID: 126
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -64,15 +64,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 797
+    x: 899
     y: 0
-    width: 684
+    width: 582
     height: 428
   m_MinSize: {x: 1002, y: 526}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3471
+  controlID: 129
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -116,15 +116,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 895
+    x: 575
     y: 0
-    width: 440
+    width: 760
     height: 505
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 27}
+  m_ActualView: {fileID: 26}
   m_Panes:
-  - {fileID: 27}
+  - {fileID: 26}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 3408
+  controlID: 56
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 245
+  controlID: 127
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -198,13 +198,13 @@ MonoBehaviour:
     y: 0
     width: 439
     height: 933
-  m_MinSize: {x: 276, y: 76}
+  m_MinSize: {x: 51, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 23}
-  m_Selected: 1
+  - {fileID: 19}
+  - {fileID: 22}
+  m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
@@ -227,9 +227,9 @@ MonoBehaviour:
     height: 505
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 24}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -249,14 +249,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 797
+    width: 899
     height: 428
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 22}
-  - {fileID: 26}
+  - {fileID: 21}
+  - {fileID: 25}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -308,7 +308,7 @@ MonoBehaviour:
     height: 36
   m_MinSize: {x: 50, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 246
+  controlID: 128
   draggingID: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 261
+  controlID: 55
   draggingID: 0
 --- !u!114 &16
 MonoBehaviour:
@@ -392,235 +392,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: MaterialGraphEditWindow
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 895
+    width: 575
     height: 505
-  m_MinSize: {x: 52, y: 76}
+  m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 25}
-  - {fileID: 21}
-  - {fileID: 17}
-  m_Selected: 2
+  - {fileID: 24}
+  - {fileID: 20}
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 924ffcbe75518854f97b48776d0f1939, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.ShaderGraph.Editor::UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: New ShaderGraph Fullscreen
-    m_Image: {fileID: 2800000, guid: 7129268cf102b2f45809905bcb27ce8b, type: 3}
-    m_Tooltip: 
-    m_TextWithWhitespace: "New ShaderGraph Fullscreen\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 1
-    y: 24
-    width: 893
-    height: 479
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_DynamicPanelContainerData: []
-    m_OverlaysVisible: 1
-    m_DynamicPanelBehavior: 0
-  m_Selected: 48de478722cf7444d99ec309fdd88e60
-  m_GraphObject: {fileID: 0}
-  m_LastSerializedFileContents: "{\n    \"m_SGVersion\": 3,\n    \"m_Type\": \"UnityEditor.ShaderGraph.GraphData\",\n   
-    \"m_ObjectId\": \"6318ffd0f2104c5caf9c1135e0865739\",\n    \"m_Properties\":
-    [\n        {\n            \"m_Id\": \"26bd7e32ce074feda892063d0c11ee51\"\n       
-    }\n    ],\n    \"m_Keywords\": [],\n    \"m_Dropdowns\": [],\n    \"m_CategoryData\":
-    [\n        {\n            \"m_Id\": \"58f40455834e4ed8a751f34672ee0905\"\n       
-    }\n    ],\n    \"m_Nodes\": [\n        {\n            \"m_Id\": \"4c723b931760454694de99abb517648b\"\n       
-    },\n        {\n            \"m_Id\": \"780f8769cbea425cba5117597de9bf1c\"\n       
-    },\n        {\n            \"m_Id\": \"8a48e6c3bfab4c0e9de0c289535f147a\"\n       
-    },\n        {\n            \"m_Id\": \"beffde4ede024046818e1db4326ec07e\"\n       
-    },\n        {\n            \"m_Id\": \"eb17ef00cccb4a73a099de3473a8f084\"\n       
-    }\n    ],\n    \"m_GroupDatas\": [],\n    \"m_StickyNoteDatas\": [],\n    \"m_Edges\":
-    [\n        {\n            \"m_OutputSlot\": {\n                \"m_Node\": {\n                   
-    \"m_Id\": \"8a48e6c3bfab4c0e9de0c289535f147a\"\n                },\n               
-    \"m_SlotId\": 2\n            },\n            \"m_InputSlot\": {\n               
-    \"m_Node\": {\n                    \"m_Id\": \"4c723b931760454694de99abb517648b\"\n               
-    },\n                \"m_SlotId\": 0\n            }\n        }\n    ],\n    \"m_VertexContext\":
-    {\n        \"m_Position\": {\n            \"x\": -0.0000064373016357421879,\n           
-    \"y\": 4.666651725769043\n        },\n        \"m_Blocks\": []\n    },\n    \"m_FragmentContext\":
-    {\n        \"m_Position\": {\n            \"x\": 0.0,\n            \"y\": 200.0\n       
-    },\n        \"m_Blocks\": [\n            {\n                \"m_Id\": \"4c723b931760454694de99abb517648b\"\n           
-    },\n            {\n                \"m_Id\": \"780f8769cbea425cba5117597de9bf1c\"\n           
-    }\n        ]\n    },\n    \"m_PreviewData\": {\n        \"serializedMesh\": {\n           
-    \"m_SerializedMesh\": \"{\\\"mesh\\\":{\\\"instanceID\\\":0}}\",\n           
-    \"m_Guid\": \"\"\n        },\n        \"preventRotation\": false\n    },\n   
-    \"m_Path\": \"Shader Graphs\",\n    \"m_GraphPrecision\": 1,\n    \"m_PreviewMode\":
-    2,\n    \"m_OutputNode\": {\n        \"m_Id\": \"\"\n    },\n    \"m_SubDatas\":
-    [],\n    \"m_ActiveTargets\": [\n        {\n            \"m_Id\": \"6ba83f4495e54c749af3a4a227433223\"\n       
-    }\n    ]\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.Rendering.Fullscreen.ShaderGraph.FullscreenData\",\n   
-    \"m_ObjectId\": \"0b64171c534d407ba3cab148cba25a7c\",\n    \"m_Version\": 0,\n   
-    \"m_fullscreenMode\": 0,\n    \"m_BlendMode\": 0,\n    \"m_SrcColorBlendMode\":
-    0,\n    \"m_DstColorBlendMode\": 1,\n    \"m_ColorBlendOperation\": 0,\n    \"m_SrcAlphaBlendMode\":
-    0,\n    \"m_DstAlphaBlendMode\": 1,\n    \"m_AlphaBlendOperation\": 0,\n    \"m_EnableStencil\":
-    false,\n    \"m_StencilReference\": 1,\n    \"m_StencilReadMask\": 255,\n   
-    \"m_StencilWriteMask\": 255,\n    \"m_StencilCompareFunction\": 0,\n    \"m_StencilPassOperation\":
-    0,\n    \"m_StencilFailOperation\": 0,\n    \"m_StencilDepthFailOperation\":
-    0,\n    \"m_DepthWrite\": false,\n    \"m_depthWriteMode\": 0,\n    \"m_AllowMaterialOverride\":
-    false,\n    \"m_DepthTestMode\": 0\n}\n\n{\n    \"m_SGVersion\": 1,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty\",\n    \"m_ObjectId\":
-    \"26bd7e32ce074feda892063d0c11ee51\",\n    \"m_Guid\": {\n        \"m_GuidSerialized\":
-    \"6022b6b0-2a34-4900-82c8-f106319daeae\"\n    },\n    \"promotedFromAssetID\":
-    \"\",\n    \"promotedFromCategoryName\": \"\",\n    \"promotedOrdering\": -1,\n   
-    \"m_Name\": \"Intensity\",\n    \"m_DefaultRefNameVersion\": 1,\n    \"m_RefNameGeneratedByDisplayName\":
-    \"Intensity\",\n    \"m_DefaultReferenceName\": \"_Intensity\",\n    \"m_OverrideReferenceName\":
-    \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_UseCustomSlotLabel\":
-    false,\n    \"m_CustomSlotLabel\": \"\",\n    \"m_DismissedVersion\": 0,\n   
-    \"m_Precision\": 0,\n    \"overrideHLSLDeclaration\": false,\n    \"hlslDeclarationOverride\":
-    0,\n    \"m_Hidden\": false,\n    \"m_PerRendererData\": false,\n    \"m_customAttributes\":
-    [],\n    \"m_Value\": 1.0,\n    \"m_FloatType\": 0,\n    \"m_LiteralFloatMode\":
-    false,\n    \"m_RangeValues\": {\n        \"x\": 0.0,\n        \"y\": 1.0\n   
-    },\n    \"m_SliderType\": 0,\n    \"m_SliderPower\": 3.0,\n    \"m_EnumType\":
-    0,\n    \"m_CSharpEnumString\": \"\",\n    \"m_EnumNames\": [\n        \"Default\"\n   
-    ],\n    \"m_EnumValues\": [\n        0\n    ]\n}\n\n{\n    \"m_SGVersion\": 0,\n   
-    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\": \"4c723b931760454694de99abb517648b\",\n   
-    \"m_Group\": {\n        \"m_Id\": \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.BaseColor\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"d2ec017c5f984fb18b3b94fb73e623e7\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.BaseColor\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.CategoryData\",\n    \"m_ObjectId\": \"58f40455834e4ed8a751f34672ee0905\",\n   
-    \"m_Name\": \"\",\n    \"m_ChildObjectList\": [\n        {\n            \"m_Id\":
-    \"26bd7e32ce074feda892063d0c11ee51\"\n        }\n    ]\n}\n\n{\n    \"m_SGVersion\":
-    1,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget\",\n   
-    \"m_ObjectId\": \"6ba83f4495e54c749af3a4a227433223\",\n    \"m_Datas\": [\n       
-    {\n            \"m_Id\": \"0b64171c534d407ba3cab148cba25a7c\"\n        }\n   
-    ],\n    \"m_ActiveSubTarget\": {\n        \"m_Id\": \"c5e6639bcec84ef393b3bc5eb3d28ce4\"\n   
-    },\n    \"m_AllowMaterialOverride\": false,\n    \"m_SurfaceType\": 0,\n    \"m_ZTestMode\":
-    4,\n    \"m_ZWriteControl\": 0,\n    \"m_AlphaMode\": 0,\n    \"m_RenderFace\":
-    2,\n    \"m_AlphaClip\": false,\n    \"m_CastShadows\": true,\n    \"m_ReceiveShadows\":
-    true,\n    \"m_DisableTint\": false,\n    \"m_Sort3DAs2DCompatible\": false,\n   
-    \"m_AdditionalMotionVectorMode\": 0,\n    \"m_AlembicMotionVectors\": false,\n   
-    \"m_SupportsLODCrossFade\": false,\n    \"m_CustomEditorGUI\": \"\",\n    \"m_SupportVFX\":
-    false\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"780f8769cbea425cba5117597de9bf1c\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.Alpha\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"814f4da7959e4f1f88fb7c95bf2dee1d\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.Alpha\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.ColorRGBAMaterialSlot\",\n    \"m_ObjectId\": \"7e4408ff5b564b7db1329620bac0c45d\",\n   
-    \"m_Id\": 2,\n    \"m_DisplayName\": \"Output\",\n    \"m_SlotType\": 1,\n   
-    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"Output\",\n    \"m_StageCapability\":
-    2,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0,\n        \"w\": 1.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n       
-    \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 1.0\n    },\n    \"m_Labels\":
-    []\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n   
-    \"m_ObjectId\": \"814f4da7959e4f1f88fb7c95bf2dee1d\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Alpha\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Alpha\",\n    \"m_StageCapability\": 2,\n    \"m_Value\":
-    1.0,\n    \"m_DefaultValue\": 1.0,\n    \"m_Labels\": [],\n    \"m_LiteralMode\":
-    false\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.UniversalSampleBufferNode\",\n   
-    \"m_ObjectId\": \"8a48e6c3bfab4c0e9de0c289535f147a\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"URP Sample Buffer\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": -769.3333129882813,\n            \"y\": 200.0,\n           
-    \"width\": 156.66668701171876,\n            \"height\": 132.0\n        }\n   
-    },\n    \"m_Slots\": [\n        {\n            \"m_Id\": \"b03211bd92e646c5a5960632ada03074\"\n       
-    },\n        {\n            \"m_Id\": \"7e4408ff5b564b7db1329620bac0c45d\"\n       
-    }\n    ],\n    \"synonyms\": [\n        \"normal\",\n        \"motion vector\",\n       
-    \"blit\"\n    ],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\": false,\n   
-    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_BufferType\": 2\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.ScreenPositionMaterialSlot\",\n   
-    \"m_ObjectId\": \"b03211bd92e646c5a5960632ada03074\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"UV\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"UV\",\n    \"m_StageCapability\": 3,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\":
-    0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n       
-    \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Labels\": [],\n    \"m_ScreenSpaceType\":
-    0\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n   
-    \"m_ObjectId\": \"b8195f05c2c3449ab5a125416488cfbe\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Intensity\",\n    \"m_SlotType\": 1,\n    \"m_Hidden\":
-    false,\n    \"m_ShaderOutputName\": \"Out\",\n    \"m_StageCapability\": 3,\n   
-    \"m_Value\": 0.0,\n    \"m_DefaultValue\": 0.0,\n    \"m_Labels\": [],\n    \"m_LiteralMode\":
-    false\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.PropertyNode\",\n   
-    \"m_ObjectId\": \"beffde4ede024046818e1db4326ec07e\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"Property\",\n    \"m_DrawState\": {\n       
-    \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": -495.0,\n            \"y\": 173.99998474121095,\n           
-    \"width\": 120.0,\n            \"height\": 34.00001525878906\n        }\n   
-    },\n    \"m_Slots\": [\n        {\n            \"m_Id\": \"b8195f05c2c3449ab5a125416488cfbe\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_Property\": {\n       
-    \"m_Id\": \"26bd7e32ce074feda892063d0c11ee51\"\n    }\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalFullscreenSubTarget\",\n   
-    \"m_ObjectId\": \"c5e6639bcec84ef393b3bc5eb3d28ce4\"\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.ColorRGBMaterialSlot\",\n    \"m_ObjectId\":
-    \"d2ec017c5f984fb18b3b94fb73e623e7\",\n    \"m_Id\": 0,\n    \"m_DisplayName\":
-    \"Base Color\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n    \"m_ShaderOutputName\":
-    \"BaseColor\",\n    \"m_StageCapability\": 2,\n    \"m_Value\": {\n        \"x\":
-    0.5,\n        \"y\": 0.5,\n        \"z\": 0.5\n    },\n    \"m_DefaultValue\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_Labels\": [],\n    \"m_ColorMode\": 0,\n    \"m_DefaultColor\": {\n       
-    \"r\": 0.5,\n        \"g\": 0.5,\n        \"b\": 0.5,\n        \"a\": 1.0\n   
-    }\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.ScreenPositionMaterialSlot\",\n   
-    \"m_ObjectId\": \"d4bc1b21372a4da2b1b2050146110643\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"UV\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"UV\",\n    \"m_StageCapability\": 3,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\":
-    0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n       
-    \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Labels\": [],\n    \"m_ScreenSpaceType\":
-    0\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.ColorRGBAMaterialSlot\",\n   
-    \"m_ObjectId\": \"d77d133d43c744e28734c0921af29b69\",\n    \"m_Id\": 2,\n   
-    \"m_DisplayName\": \"Output\",\n    \"m_SlotType\": 1,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Output\",\n    \"m_StageCapability\": 2,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\":
-    0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n       
-    \"z\": 0.0,\n        \"w\": 1.0\n    },\n    \"m_Labels\": []\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.UniversalSampleBufferNode\",\n   
-    \"m_ObjectId\": \"eb17ef00cccb4a73a099de3473a8f084\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"URP Sample Buffer\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": -803.0000610351563,\n            \"y\": 366.00006103515627,\n           
-    \"width\": 208.0,\n            \"height\": 311.99993896484377\n        }\n   
-    },\n    \"m_Slots\": [\n        {\n            \"m_Id\": \"d4bc1b21372a4da2b1b2050146110643\"\n       
-    },\n        {\n            \"m_Id\": \"d77d133d43c744e28734c0921af29b69\"\n       
-    }\n    ],\n    \"synonyms\": [\n        \"normal\",\n        \"motion vector\",\n       
-    \"blit\"\n    ],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\": true,\n   
-    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_BufferType\": 2\n}\n\n"
-  m_AssetMaybeChangedOnDisk: 0
-  m_AssetMaybeDeleted: 0
---- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -883,12 +672,12 @@ MonoBehaviour:
       displayed: 1
       id: Play Mode Controls
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-944.0,"y":-36.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: -944, y: -36}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -900,7 +689,7 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -921,9 +710,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Frame Debugger\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 798
+    x: 900
     y: 24
-    width: 682
+    width: 580
     height: 402
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -941,9 +730,9 @@ MonoBehaviour:
   m_TreeWidth: 337.92
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 31000000
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: d8ffffffd9ffffffe9ffffffeaffffffebffffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -962,7 +751,7 @@ MonoBehaviour:
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -983,8 +772,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Git for Unity\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1481
-    y: 79
+    x: 1482
+    y: 24
     width: 438
     height: 907
   m_SerializedDataModeController:
@@ -1000,16 +789,16 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
-  progressMessageClearTime: 59.3080647
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
-  changeTab: 2
-  activeTab: 2
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -1060,6 +849,16 @@ MonoBehaviour:
         isCollapsed: 0
         isHidden: 0
         isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      - path: URPAHH
+        label: URPAHH
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
@@ -1166,10 +965,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2026-02-27T23:51:19.082+01:00
+      updatedTimeString: 2026-03-01T21:16:42.688+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2026-02-27T23:41:34.667+01:00
+      updatedTimeString: 2026-03-01T21:03:46.495+01:00
       cacheType: 1
     currentBranch:
       name: master
@@ -1185,14 +984,16 @@ MonoBehaviour:
     localBranches:
     - name: master
       tracking: origin/master
+    - name: URPAHH
+      tracking: 
     remoteBranches:
     - name: origin/HEAD
       tracking: '[None]'
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
@@ -1200,11 +1001,486 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 1176e20df71eb544885beb89f2ce9ccd
+        - 0b7b3737ae6581c4fb5a2e1a089d7e4d
+        - bcb933f237a3317448c60a396f911874
+        - 528ce12a293e90340a4a707cc6c130cc
+        - 0bf474f1083766743b5e7eff6255de7f
+        - 9c53962885c2c4f449125a979d6ad240
+        - 99c9720ab356a0642a771bea13969a05
+        - 9a17a437ed25311458be59b398750e69
+        - 7936b04565b90ed48a8ffd82d4da4d6a
+        - 709f11a7f3c4041caa4ef136ea32d874
+        - ab09877e2e707104187f6f83e2f62510
+        - 45d402cca699a22489ae6f48eb6321d4
+        - 7ab6097970f2922479dfdba8f8eb682a
+        - d3b25a5e8fec7a94d8aa5d494f63fe3f
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials
+          label: Materials
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials\Render
+          label: Render
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials\Render\LightArea.mat
+          label: LightArea.mat
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Materials\Render\LightArea.mat
+            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
+            projectPath: Assets\Materials\Render\LightArea.mat
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\Player.prefab
+          label: Player.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Player.prefab
+            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
+            projectPath: Assets\Prefabs\Player.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\MainScene.unity
+          label: MainScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\MainScene.unity
+            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
+            projectPath: Assets\Scenes\MainScene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\PlayerMain.cs
+          label: PlayerMain.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\PlayerMain.cs
+            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
+            projectPath: Assets\Scripts\PlayerMain.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings\DefaultVolumeProfile.asset
+          label: DefaultVolumeProfile.asset
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Settings\DefaultVolumeProfile.asset
+            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\DefaultVolumeProfile.asset
+            projectPath: Assets\Settings\DefaultVolumeProfile.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Shaders
+          label: Shaders
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Shaders\LightArea.shader
+          label: LightArea.shader
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Shaders\LightArea.shader
+            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader
+            projectPath: Assets\Shaders\LightArea.shader
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Shaders\Lights_PPS.shader
+          label: Lights_PPS.shader
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Shaders\Lights_PPS.shader
+            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.shader
+            projectPath: Assets\Shaders\Lights_PPS.shader
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        - Assets\Materials
+        - Assets\Materials\Render
+        - Assets\Prefabs
+        - Assets\Scenes
+        - Assets\Scripts
+        - Assets\Settings
+        - Assets\Shaders
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials
+          label: Materials
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Materials\Render
+          label: Render
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Shaders
+          label: Shaders
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1233,6 +1509,330 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Materials
+        label: Materials
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Materials\Render
+        label: Render
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Materials\Render\LightArea.mat
+        label: LightArea.mat
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Materials\Render\LightArea.mat
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
+          projectPath: Assets\Materials\Render\LightArea.mat
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Prefabs
+        label: Prefabs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Prefabs\Player.prefab
+        label: Player.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Player.prefab
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
+          projectPath: Assets\Prefabs\Player.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\MainScene.unity
+        label: MainScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\MainScene.unity
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
+          projectPath: Assets\Scenes\MainScene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\PlayerMain.cs
+        label: PlayerMain.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerMain.cs
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
+          projectPath: Assets\Scripts\PlayerMain.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Settings
+        label: Settings
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Settings\DefaultVolumeProfile.asset
+        label: DefaultVolumeProfile.asset
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\DefaultVolumeProfile.asset
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\DefaultVolumeProfile.asset
+          projectPath: Assets\Settings\DefaultVolumeProfile.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Shaders
+        label: Shaders
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Shaders\LightArea.shader
+        label: LightArea.shader
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Shaders\LightArea.shader
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader
+          projectPath: Assets\Shaders\LightArea.shader
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Shaders\Lights_PPS.shader
+        label: Lights_PPS.shader
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Shaders\Lights_PPS.shader
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.shader
+          projectPath: Assets\Shaders\Lights_PPS.shader
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-6000.dwlt
+        label: default-6000.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-6000.dwlt
+          fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\Layouts\default-6000.dwlt
+          projectPath: UserSettings\Layouts\default-6000.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1252,21 +1852,267 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Assets\Materials\Render\LightArea.mat
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
+      projectPath: Assets\Materials\Render\LightArea.mat
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\PlayerMain.cs
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
+      projectPath: Assets\Scripts\PlayerMain.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Settings\DefaultVolumeProfile.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\DefaultVolumeProfile.asset
+      projectPath: Assets\Settings\DefaultVolumeProfile.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Shaders\LightArea.shader
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader
+      projectPath: Assets\Shaders\LightArea.shader
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Shaders\Lights_PPS.shader
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.shader
+      projectPath: Assets\Shaders\Lights_PPS.shader
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-6000.dwlt
+      fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\Layouts\default-6000.dwlt
+      projectPath: UserSettings\Layouts\default-6000.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 8 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2026-02-27T23:41:34.667+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2026-02-27T23:51:19.897+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2026-02-27T23:48:58.825+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: c6bec9e18551495d954169c75fc5244e3334ed79
+      mergeA: 
+      mergeB: 
+      authorName: Volkov997
+      authorEmail: 80154311+Volkov997@users.noreply.github.com.
+      commitEmail: 80154311+Volkov997@users.noreply.github.com.
+      commitName: Volkov997
+      summary: set up general Lighting/Rendering for main game mechanics
+      description: 
+      timeString: 2026-02-28T06:08:54.000+01:00
+      commitTimeString: 2026-02-28T06:08:54.000+01:00
+      changes:
+      - path: Assets\Materials\Render\Illuminating.mat
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Illuminating.mat
+        projectPath: Assets\Materials\Render\Illuminating.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\Illuminating.mat.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Illuminating.mat.meta
+        projectPath: Assets\Materials\Render\Illuminating.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\LightArea.mat
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
+        projectPath: Assets\Materials\Render\LightArea.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\LightArea.mat.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat.meta
+        projectPath: Assets\Materials\Render\LightArea.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\Mist.mat
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Mist.mat
+        projectPath: Assets\Materials\Render\Mist.mat
+        originalPath: Assets\Materials\Render\stuff.mat
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\Mist.mat.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Mist.mat.meta
+        projectPath: Assets\Materials\Render\Mist.mat.meta
+        originalPath: Assets\Materials\Render\stuff.mat.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\PostProcess.mat
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\PostProcess.mat
+        projectPath: Assets\Materials\Render\PostProcess.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\PostProcess.mat.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\PostProcess.mat.meta
+        projectPath: Assets\Materials\Render\PostProcess.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\Solid.mat
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Solid.mat
+        projectPath: Assets\Materials\Render\Solid.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Render\Solid.mat.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Solid.mat.meta
+        projectPath: Assets\Materials\Render\Solid.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\New Render Texture.renderTexture
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\New Render Texture.renderTexture
+        projectPath: Assets\New Render Texture.renderTexture
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\New Render Texture.renderTexture.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\New Render Texture.renderTexture.meta
+        projectPath: Assets\New Render Texture.renderTexture.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Player.prefab
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
+        projectPath: Assets\Prefabs\Player.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Resources\Prefabs.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Resources\Prefabs.meta
+        projectPath: Assets\Resources\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Resources\Prefabs\LightAoe.prefab
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Resources\Prefabs\LightAoe.prefab
+        projectPath: Assets\Resources\Prefabs\LightAoe.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Resources\Prefabs\LightAoe.prefab.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Resources\Prefabs\LightAoe.prefab.meta
+        projectPath: Assets\Resources\Prefabs\LightAoe.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\MainScene.unity
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
+        projectPath: Assets\Scenes\MainScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Illuminator.cs
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\Illuminator.cs
+        projectPath: Assets\Scripts\Illuminator.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Illuminator.cs.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\Illuminator.cs.meta
+        projectPath: Assets\Scripts\Illuminator.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerMain.cs
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
+        projectPath: Assets\Scripts\PlayerMain.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\PostProcess.cs
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PostProcess.cs
+        projectPath: Assets\Scripts\PostProcess.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PostProcess.cs.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PostProcess.cs.meta
+        projectPath: Assets\Scripts\PostProcess.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Shaders.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders.meta
+        projectPath: Assets\Shaders.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Shaders\DarkShader.shader
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\DarkShader.shader
+        projectPath: Assets\Shaders\DarkShader.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Shaders\DarkShader.shader.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\DarkShader.shader.meta
+        projectPath: Assets\Shaders\DarkShader.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Shaders\UnlitBack.shader
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\UnlitBack.shader
+        projectPath: Assets\Shaders\UnlitBack.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Shaders\UnlitBack.shader.meta
+        fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\UnlitBack.shader.meta
+        projectPath: Assets\Shaders\UnlitBack.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-6000.dwlt
+        fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\Layouts\default-6000.dwlt
+        projectPath: UserSettings\Layouts\default-6000.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 35f8c10e89357d0d4aecb02145ff5b9ad793d288
       mergeA: 
       mergeB: 
@@ -2004,14 +2850,212 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2026-03-01T21:58:51.019+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2026-03-01T21:58:50.725+01:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: c6bec9e18551495d954169c75fc5244e3334ed79
+        mergeA: 
+        mergeB: 
+        authorName: Volkov997
+        authorEmail: 80154311+Volkov997@users.noreply.github.com.
+        commitEmail: 80154311+Volkov997@users.noreply.github.com.
+        commitName: Volkov997
+        summary: set up general Lighting/Rendering for main game mechanics
+        description: 
+        timeString: 2026-02-28T06:08:54.000+01:00
+        commitTimeString: 2026-02-28T06:08:54.000+01:00
+        changes:
+        - path: Assets\Materials\Render\Illuminating.mat
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Illuminating.mat
+          projectPath: Assets\Materials\Render\Illuminating.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\Illuminating.mat.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Illuminating.mat.meta
+          projectPath: Assets\Materials\Render\Illuminating.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\LightArea.mat
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
+          projectPath: Assets\Materials\Render\LightArea.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\LightArea.mat.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat.meta
+          projectPath: Assets\Materials\Render\LightArea.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\Mist.mat
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Mist.mat
+          projectPath: Assets\Materials\Render\Mist.mat
+          originalPath: Assets\Materials\Render\stuff.mat
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\Mist.mat.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Mist.mat.meta
+          projectPath: Assets\Materials\Render\Mist.mat.meta
+          originalPath: Assets\Materials\Render\stuff.mat.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\PostProcess.mat
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\PostProcess.mat
+          projectPath: Assets\Materials\Render\PostProcess.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\PostProcess.mat.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\PostProcess.mat.meta
+          projectPath: Assets\Materials\Render\PostProcess.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\Solid.mat
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Solid.mat
+          projectPath: Assets\Materials\Render\Solid.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Render\Solid.mat.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Solid.mat.meta
+          projectPath: Assets\Materials\Render\Solid.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\New Render Texture.renderTexture
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\New Render Texture.renderTexture
+          projectPath: Assets\New Render Texture.renderTexture
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\New Render Texture.renderTexture.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\New Render Texture.renderTexture.meta
+          projectPath: Assets\New Render Texture.renderTexture.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Player.prefab
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
+          projectPath: Assets\Prefabs\Player.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Resources\Prefabs.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Resources\Prefabs.meta
+          projectPath: Assets\Resources\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Resources\Prefabs\LightAoe.prefab
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Resources\Prefabs\LightAoe.prefab
+          projectPath: Assets\Resources\Prefabs\LightAoe.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Resources\Prefabs\LightAoe.prefab.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Resources\Prefabs\LightAoe.prefab.meta
+          projectPath: Assets\Resources\Prefabs\LightAoe.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\MainScene.unity
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
+          projectPath: Assets\Scenes\MainScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Illuminator.cs
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\Illuminator.cs
+          projectPath: Assets\Scripts\Illuminator.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Illuminator.cs.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\Illuminator.cs.meta
+          projectPath: Assets\Scripts\Illuminator.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerMain.cs
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
+          projectPath: Assets\Scripts\PlayerMain.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\PostProcess.cs
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PostProcess.cs
+          projectPath: Assets\Scripts\PostProcess.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PostProcess.cs.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PostProcess.cs.meta
+          projectPath: Assets\Scripts\PostProcess.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Shaders.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders.meta
+          projectPath: Assets\Shaders.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Shaders\DarkShader.shader
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\DarkShader.shader
+          projectPath: Assets\Shaders\DarkShader.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Shaders\DarkShader.shader.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\DarkShader.shader.meta
+          projectPath: Assets\Shaders\DarkShader.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Shaders\UnlitBack.shader
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\UnlitBack.shader
+          projectPath: Assets\Shaders\UnlitBack.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Shaders\UnlitBack.shader.meta
+          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\UnlitBack.shader.meta
+          projectPath: Assets\Shaders\UnlitBack.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-6000.dwlt
+          fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\Layouts\default-6000.dwlt
+          projectPath: UserSettings\Layouts\default-6000.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 35f8c10e89357d0d4aecb02145ff5b9ad793d288
         mergeA: 
         mergeB: 
@@ -4203,16 +5247,478 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 01:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2026-02-27T23:41:34.667+01:00
+      updatedTimeString: 2026-03-01T21:03:46.495+01:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2026-03-01T21:58:17.543+01:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2026-02-27T23:51:19.897+01:00
+      updatedTimeString: 2026-03-01T21:58:50.267+01:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: .vscode\settings.json
+      fullPath: C:\Users\simon\Unity\LightBringer\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Controls.cs
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Controls.cs
+      projectPath: Assets\Controls.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Materials\Render\Illuminating.mat
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Illuminating.mat
+      projectPath: Assets\Materials\Render\Illuminating.mat
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Materials\Render\LightArea.mat
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
+      projectPath: Assets\Materials\Render\LightArea.mat
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Materials\Render\PostProcess.mat
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\PostProcess.mat
+      projectPath: Assets\Materials\Render\PostProcess.mat
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Materials\Render\PostProcess.mat.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\PostProcess.mat.meta
+      projectPath: Assets\Materials\Render\PostProcess.mat.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Materials\Render\Solid.mat
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\Solid.mat
+      projectPath: Assets\Materials\Render\Solid.mat
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\MobileDependencyResolver.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver.meta
+      projectPath: Assets\MobileDependencyResolver.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor.meta
+      projectPath: Assets\MobileDependencyResolver\Editor.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.IOSResolver.dll
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.IOSResolver.dll
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.IOSResolver.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.IOSResolver.dll.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.IOSResolver.dll.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.IOSResolver.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.JarResolver.dll
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.JarResolver.dll
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.JarResolver.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.JarResolver.dll.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.JarResolver.dll.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.JarResolver.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.PackageManagerResolver.dll
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.PackageManagerResolver.dll
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.PackageManagerResolver.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.PackageManagerResolver.dll.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.PackageManagerResolver.dll.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.PackageManagerResolver.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.VersionHandlerImpl.dll
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.VersionHandlerImpl.dll
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.VersionHandlerImpl.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\1.2.185\Google.VersionHandlerImpl.dll.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\1.2.185\Google.VersionHandlerImpl.dll.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\1.2.185\Google.VersionHandlerImpl.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\CHANGELOG.md
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\CHANGELOG.md
+      projectPath: Assets\MobileDependencyResolver\Editor\CHANGELOG.md
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\CHANGELOG.md.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\CHANGELOG.md.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\CHANGELOG.md.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll
+      projectPath: Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\LICENSE
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\LICENSE
+      projectPath: Assets\MobileDependencyResolver\Editor\LICENSE
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\LICENSE.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\LICENSE.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\LICENSE.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver_version-1.2.185_manifest.txt
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver_version-1.2.185_manifest.txt
+      projectPath: Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver_version-1.2.185_manifest.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver_version-1.2.185_manifest.txt.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver_version-1.2.185_manifest.txt.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver_version-1.2.185_manifest.txt.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\README.md
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\README.md
+      projectPath: Assets\MobileDependencyResolver\Editor\README.md
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\MobileDependencyResolver\Editor\README.md.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\MobileDependencyResolver\Editor\README.md.meta
+      projectPath: Assets\MobileDependencyResolver\Editor\README.md.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Models.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Models.meta
+      projectPath: Assets\Models.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Models\smoothSphere.obj
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Models\smoothSphere.obj
+      projectPath: Assets\Models\smoothSphere.obj
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Models\smoothSphere.obj.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Models\smoothSphere.obj.meta
+      projectPath: Assets\Models\smoothSphere.obj.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\New Render Texture.renderTexture
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\New Render Texture.renderTexture
+      projectPath: Assets\New Render Texture.renderTexture
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\New Render Texture.renderTexture.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\New Render Texture.renderTexture.meta
+      projectPath: Assets\New Render Texture.renderTexture.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Resources\Prefabs\LightAoe.prefab
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Resources\Prefabs\LightAoe.prefab
+      projectPath: Assets\Resources\Prefabs\LightAoe.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\Illuminator.cs
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\Illuminator.cs
+      projectPath: Assets\Scripts\Illuminator.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\PostProcess.cs
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PostProcess.cs
+      projectPath: Assets\Scripts\PostProcess.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Scripts\PostProcess.cs.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PostProcess.cs.meta
+      projectPath: Assets\Scripts\PostProcess.cs.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\DefaultVolumeProfile.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\DefaultVolumeProfile.asset
+      projectPath: Assets\Settings\DefaultVolumeProfile.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Settings\Main_Renderer.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Main_Renderer.asset
+      projectPath: Assets\Settings\Main_Renderer.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\Main_Renderer.asset.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Main_Renderer.asset.meta
+      projectPath: Assets\Settings\Main_Renderer.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\Main_RPAsset.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Main_RPAsset.asset
+      projectPath: Assets\Settings\Main_RPAsset.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\Main_RPAsset.asset.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Main_RPAsset.asset.meta
+      projectPath: Assets\Settings\Main_RPAsset.asset.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Settings\Mobile_Renderer.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Mobile_Renderer.asset
+      projectPath: Assets\Settings\Mobile_Renderer.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\Mobile_Renderer.asset.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Mobile_Renderer.asset.meta
+      projectPath: Assets\Settings\Mobile_Renderer.asset.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\Mobile_RPAsset.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Mobile_RPAsset.asset
+      projectPath: Assets\Settings\Mobile_RPAsset.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\Mobile_RPAsset.asset.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\Mobile_RPAsset.asset.meta
+      projectPath: Assets\Settings\Mobile_RPAsset.asset.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\PC_Renderer.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\PC_Renderer.asset
+      projectPath: Assets\Settings\PC_Renderer.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\PC_Renderer.asset.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\PC_Renderer.asset.meta
+      projectPath: Assets\Settings\PC_Renderer.asset.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\PC_RPAsset.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\PC_RPAsset.asset
+      projectPath: Assets\Settings\PC_RPAsset.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\PC_RPAsset.asset.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\PC_RPAsset.asset.meta
+      projectPath: Assets\Settings\PC_RPAsset.asset.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\SampleSceneProfile.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\SampleSceneProfile.asset
+      projectPath: Assets\Settings\SampleSceneProfile.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\SampleSceneProfile.asset.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\SampleSceneProfile.asset.meta
+      projectPath: Assets\Settings\SampleSceneProfile.asset.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+      projectPath: Assets\Settings\UniversalRenderPipelineGlobalSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Shaders\DarkShader.shader
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\DarkShader.shader
+      projectPath: Assets\Shaders\DarkShader.shader
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Shaders\DarkShader.shader.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\DarkShader.shader.meta
+      projectPath: Assets\Shaders\DarkShader.shader.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Shaders\LightArea.shader
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader
+      projectPath: Assets\Shaders\LightArea.shader
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Shaders\LightArea.shader.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader.meta
+      projectPath: Assets\Shaders\LightArea.shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Shaders\Lights_PPS.mat
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.mat
+      projectPath: Assets\Shaders\Lights_PPS.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Shaders\Lights_PPS.mat.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.mat.meta
+      projectPath: Assets\Shaders\Lights_PPS.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Shaders\Lights_PPS.shader
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.shader
+      projectPath: Assets\Shaders\Lights_PPS.shader
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Shaders\Lights_PPS.shader.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.shader.meta
+      projectPath: Assets\Shaders\Lights_PPS.shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Shaders\UnlitBack.shader
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\UnlitBack.shader
+      projectPath: Assets\Shaders\UnlitBack.shader
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Shaders\UnlitBack.shader.meta
+      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\UnlitBack.shader.meta
+      projectPath: Assets\Shaders\UnlitBack.shader.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: LightBringer.slnx
+      fullPath: C:\Users\simon\Unity\LightBringer\LightBringer.slnx
+      projectPath: LightBringer.slnx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\manifest.json
+      fullPath: C:\Users\simon\Unity\LightBringer\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\simon\Unity\LightBringer\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ShaderGraphSettings.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\ShaderGraphSettings.asset
+      projectPath: ProjectSettings\ShaderGraphSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\URPProjectSettings.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\ProjectSettings\URPProjectSettings.asset
+      projectPath: ProjectSettings\URPProjectSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-6000.dwlt
+      fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\Layouts\default-6000.dwlt
+      projectPath: UserSettings\Layouts\default-6000.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Search.index
+      fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\Search.index
+      projectPath: UserSettings\Search.index
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\simon\Unity\LightBringer\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -4228,7 +5734,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/Volkov997/LightBringerGame.git
-  statusAhead: 0
+  statusAhead: 1
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -4243,13 +5749,13 @@ MonoBehaviour:
     m_Tooltip: Url of the origin remote
     m_TextWithWhitespace: "https://github.com/Volkov997/LightBringerGame.git\u200B"
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2026-02-28T03:46:24.898+01:00
+    updatedTimeString: 2026-03-01T21:03:46.495+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2026-02-28T03:51:00.760+01:00
+    updatedTimeString: 2026-03-01T22:00:24.174+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2026-02-28T03:51:00.752+01:00
+    updatedTimeString: 2026-03-01T22:01:35.318+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4271,12 +5777,12 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Fetch\u200B"
-  repositoryProgressValue: 1
+  repositoryProgressValue: 0
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &21
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4314,7 +5820,7 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
---- !u!114 &22
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4337,7 +5843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 24
-    width: 796
+    width: 898
     height: 402
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -4363,7 +5869,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Settings
+    - Assets/Shaders
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -4373,7 +5879,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Settings
+  - Assets/Shaders
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\simon\Unity\LightBringer
   m_LockTracker:
@@ -4382,14 +5888,14 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 51202
+    - m_Data: 52048
     m_LastClickedID:
-      m_Data: 51202
+      m_Data: 52048
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51720
-    - m_Data: 51722
-    - m_Data: 51724
+    - m_Data: 51714
+    - m_Data: 51716
+    - m_Data: 51718
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4422,9 +5928,9 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51720
-    - m_Data: 51722
-    - m_Data: 51724
+    - m_Data: 51714
+    - m_Data: 51716
+    - m_Data: 51718
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4452,10 +5958,11 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -29330
-    m_LastClickedInstanceID: -29330
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: []
+    - m_Data: 51500
+    m_LastClickedInstanceID: 51500
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs:
+    - m_Data: 722
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4473,7 +5980,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 8}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -4485,7 +5992,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 199
---- !u!114 &23
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4506,8 +6013,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1482
-    y: 24
+    x: 1481
+    y: 79
     width: 438
     height: 907
   m_SerializedDataModeController:
@@ -4536,7 +6043,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &24
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4581,7 +6088,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -2224
+      - m_Data: -1308
+      - m_Data: -1306
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4607,7 +6115,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 46b7a0fefa812c44ca6fda42b4d7b176
---- !u!114 &25
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4628,9 +6136,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 146
-    y: 79
-    width: 314
+    x: 1
+    y: 24
+    width: 573
     height: 479
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -5161,7 +6669,7 @@ MonoBehaviour:
       sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
-      scrollOffset: 54
+      scrollOffset: 241
     - containerId: overlay-toolbar__left
       scrollOffset: 0
     - containerId: overlay-container--left
@@ -5202,9 +6710,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -4.3219757, y: 1.4481463, z: 0.52855927}
+    m_Target: {x: -13.376267, y: -0.7661698, z: 2.5749662}
     speed: 2
-    m_Value: {x: -4.3219757, y: 1.4481463, z: 0.52855927}
+    m_Value: {x: -13.376267, y: -0.7661698, z: 2.5749662}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -5215,7 +6723,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -5250,19 +6758,19 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20619568, y: 0.31128922, z: -0.06938443, w: -0.9250817}
+    m_Target: {x: -0.089557044, y: 0.39679438, z: -0.03893374, w: -0.9127026}
     speed: 2
-    m_Value: {x: -0.2061957, y: 0.31128922, z: -0.06938443, w: -0.9250817}
+    m_Value: {x: -0.089557044, y: 0.39679435, z: -0.03893374, w: -0.9127026}
   m_Size:
-    m_Target: 13.053555
+    m_Target: 45.785812
     speed: 2
-    m_Value: 13.053555
+    m_Value: 45.785812
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
+    m_Speed: 1.005
     m_SpeedNormalized: 0.5
     m_SpeedMin: 0.01
     m_SpeedMax: 2
@@ -5277,7 +6785,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 25}
+    m_SceneView: {fileID: 24}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -5290,7 +6798,7 @@ MonoBehaviour:
     name: Contributors / Receivers
     section: Lighting
   m_ViewIsLockedToObject: 0
---- !u!114 &26
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5313,7 +6821,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 584
-    width: 796
+    width: 898
     height: 402
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -5328,7 +6836,7 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
---- !u!114 &27
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5349,9 +6857,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 896
+    x: 576
     y: 24
-    width: 438
+    width: 758
     height: 479
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -5410,10 +6918,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 438
+      width: 758
       height: 458
-    m_Scale: {x: 0.228125, y: 0.228125}
-    m_Translation: {x: 219, y: 229}
+    m_Scale: {x: 0.39479166, y: 0.39479166}
+    m_Translation: {x: 379, y: 229}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -5421,12 +6929,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -960
-      y: -1003.8356
+      y: -580.0528
       width: 1920
-      height: 2007.6711
+      height: 1160.1056
     m_MinimalGUI: 1
-  m_defaultScale: 0.228125
-  m_LastWindowPixelSize: {x: 438, y: 479}
+  m_defaultScale: 0.39479166
+  m_LastWindowPixelSize: {x: 758, y: 479}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
