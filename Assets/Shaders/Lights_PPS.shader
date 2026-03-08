@@ -1,5 +1,12 @@
 Shader "Custom/Lights_PPS"
 {   
+    Properties
+    {
+        _ColorA ("Color A", Color) = (1,0,0,1)
+        _ColorB ("Color B", Color) = (0,1,0,1)
+        _ColorC ("Color C", Color) = (0,0,1,1)
+    }
+
     SubShader
     {
         HLSLINCLUDE
@@ -20,10 +27,16 @@ Shader "Custom/Lights_PPS"
             #pragma vertex Vert
             #pragma fragment Frag
 
+            float4 _ColorA;
+            float4 _ColorB;
+            float4 _ColorC;
+
             float4 Frag (Varyings input) : SV_Target
             {
                 float4 color = SAMPLE_TEXTURE2D(_BlitTexture, sampler_LinearClamp, input.texcoord).rgba;
-                return float4(1, 0.8f, 0.2f, 1)*color+(1-float4(1, 0.4, 0, 1))*0.005f; 
+                float3 adjusted = clamp(float3(color.r,color.g,color.b-color.r), 0, 1);
+                return adjusted.x * _ColorA + adjusted.y * _ColorB + adjusted.z * _ColorC;
+                //return 1;
             }
             ENDHLSL
         }

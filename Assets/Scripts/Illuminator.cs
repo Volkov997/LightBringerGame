@@ -18,6 +18,7 @@ public class Illuminator : MonoBehaviour
         aoe.transform.localScale = Vector3.one * radiusFromIntensity();
         lightinstance = gameObject.AddComponent<Light>();
         materialColor = aoe.GetComponent<Renderer>().material.color;
+        Debug.Log("Material color: " + materialColor);
         lightinstance.color = materialColor;
         updateRadius();
     }

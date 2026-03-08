@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Game
   m_RootView: {fileID: 11}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -198,14 +198,14 @@ MonoBehaviour:
     y: 0
     width: 439
     height: 933
-  m_MinSize: {x: 51, y: 76}
+  m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 19}
   - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -772,8 +772,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Git for Unity\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1482
-    y: 24
+    x: 1481
+    y: 79
     width: 438
     height: 907
   m_SerializedDataModeController:
@@ -796,7 +796,7 @@ MonoBehaviour:
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -965,10 +965,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2026-03-01T21:16:42.688+01:00
+      updatedTimeString: 2026-03-04T01:53:38.419+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2026-03-01T21:03:46.495+01:00
+      updatedTimeString: 2026-03-04T01:53:36.684+01:00
       cacheType: 1
     currentBranch:
       name: master
@@ -994,7 +994,7 @@ MonoBehaviour:
   changesView:
     currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 0
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -1003,19 +1003,7 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - 1176e20df71eb544885beb89f2ce9ccd
-        - 0b7b3737ae6581c4fb5a2e1a089d7e4d
-        - bcb933f237a3317448c60a396f911874
-        - 528ce12a293e90340a4a707cc6c130cc
-        - 0bf474f1083766743b5e7eff6255de7f
-        - 9c53962885c2c4f449125a979d6ad240
-        - 99c9720ab356a0642a771bea13969a05
-        - 9a17a437ed25311458be59b398750e69
-        - 7936b04565b90ed48a8ffd82d4da4d6a
-        - 709f11a7f3c4041caa4ef136ea32d874
-        - ab09877e2e707104187f6f83e2f62510
         - 45d402cca699a22489ae6f48eb6321d4
-        - 7ab6097970f2922479dfdba8f8eb682a
         - d3b25a5e8fec7a94d8aa5d494f63fe3f
         values:
         - path: Assets
@@ -1036,204 +1024,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Materials
-          label: Materials
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Materials\Render
-          label: Render
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Materials\Render\LightArea.mat
-          label: LightArea.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Materials\Render\LightArea.mat
-            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
-            projectPath: Assets\Materials\Render\LightArea.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Player.prefab
-          label: Player.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Player.prefab
-            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
-            projectPath: Assets\Prefabs\Player.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\MainScene.unity
-          label: MainScene.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\MainScene.unity
-            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
-            projectPath: Assets\Scenes\MainScene.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\PlayerMain.cs
-          label: PlayerMain.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\PlayerMain.cs
-            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
-            projectPath: Assets\Scripts\PlayerMain.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Settings
-          label: Settings
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Settings\DefaultVolumeProfile.asset
-          label: DefaultVolumeProfile.asset
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Settings\DefaultVolumeProfile.asset
-            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\DefaultVolumeProfile.asset
-            projectPath: Assets\Settings\DefaultVolumeProfile.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
         - path: Assets\Shaders
           label: Shaders
           level: 1
@@ -1252,24 +1042,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Shaders\LightArea.shader
-          label: LightArea.shader
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Shaders\LightArea.shader
-            fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader
-            projectPath: Assets\Shaders\LightArea.shader
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
         - path: Assets\Shaders\Lights_PPS.shader
           label: Lights_PPS.shader
           level: 2
@@ -1291,12 +1063,6 @@ MonoBehaviour:
       folders:
         keys:
         - Assets
-        - Assets\Materials
-        - Assets\Materials\Render
-        - Assets\Prefabs
-        - Assets\Scenes
-        - Assets\Scripts
-        - Assets\Settings
         - Assets\Shaders
         - UserSettings
         - UserSettings\Layouts
@@ -1304,114 +1070,6 @@ MonoBehaviour:
         - path: Assets
           label: Assets
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Materials
-          label: Materials
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Materials\Render
-          label: Render
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Settings
-          label: Settings
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1527,204 +1185,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Materials
-        label: Materials
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Materials\Render
-        label: Render
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Materials\Render\LightArea.mat
-        label: LightArea.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Materials\Render\LightArea.mat
-          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
-          projectPath: Assets\Materials\Render\LightArea.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs
-        label: Prefabs
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs\Player.prefab
-        label: Player.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Player.prefab
-          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
-          projectPath: Assets\Prefabs\Player.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\MainScene.unity
-        label: MainScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\MainScene.unity
-          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
-          projectPath: Assets\Scenes\MainScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\PlayerMain.cs
-        label: PlayerMain.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\PlayerMain.cs
-          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
-          projectPath: Assets\Scripts\PlayerMain.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Settings
-        label: Settings
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Settings\DefaultVolumeProfile.asset
-        label: DefaultVolumeProfile.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Settings\DefaultVolumeProfile.asset
-          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\DefaultVolumeProfile.asset
-          projectPath: Assets\Settings\DefaultVolumeProfile.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Assets\Shaders
         label: Shaders
         level: 1
@@ -1743,24 +1203,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Shaders\LightArea.shader
-        label: LightArea.shader
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Shaders\LightArea.shader
-          fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader
-          projectPath: Assets\Shaders\LightArea.shader
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Assets\Shaders\Lights_PPS.shader
         label: Lights_PPS.shader
         level: 2
@@ -1853,42 +1295,6 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\Materials\Render\LightArea.mat
-      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Materials\Render\LightArea.mat
-      projectPath: Assets\Materials\Render\LightArea.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Player.prefab
-      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Prefabs\Player.prefab
-      projectPath: Assets\Prefabs\Player.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scenes\MainScene.unity
-      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scenes\MainScene.unity
-      projectPath: Assets\Scenes\MainScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\PlayerMain.cs
-      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Scripts\PlayerMain.cs
-      projectPath: Assets\Scripts\PlayerMain.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Settings\DefaultVolumeProfile.asset
-      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Settings\DefaultVolumeProfile.asset
-      projectPath: Assets\Settings\DefaultVolumeProfile.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Shaders\LightArea.shader
-      fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\LightArea.shader
-      projectPath: Assets\Shaders\LightArea.shader
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: Assets\Shaders\Lights_PPS.shader
       fullPath: C:\Users\simon\Unity\LightBringer\Assets\Shaders\Lights_PPS.shader
       projectPath: Assets\Shaders\Lights_PPS.shader
@@ -1901,7 +1307,7 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 8 changed files
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 1
@@ -5734,7 +5140,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/Volkov997/LightBringerGame.git
-  statusAhead: 1
+  statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -5749,13 +5155,13 @@ MonoBehaviour:
     m_Tooltip: Url of the origin remote
     m_TextWithWhitespace: "https://github.com/Volkov997/LightBringerGame.git\u200B"
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2026-03-01T21:03:46.495+01:00
+    updatedTimeString: 2026-03-08T20:51:07.776+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2026-03-01T22:00:24.174+01:00
+    updatedTimeString: 2026-03-08T20:52:19.211+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2026-03-01T22:01:35.318+01:00
+    updatedTimeString: 2026-03-08T20:54:24.824+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5888,9 +5294,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 52048
+    - m_Data: 52060
     m_LastClickedID:
-      m_Data: 52048
+      m_Data: 52060
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 51714
@@ -6013,8 +5419,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1481
-    y: 79
+    x: 1482
+    y: 24
     width: 438
     height: 907
   m_SerializedDataModeController:
@@ -6037,7 +5443,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 101
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -6088,7 +5494,6 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1308
       - m_Data: -1306
       m_RenameOverlay:
         m_UserAcceptedRename: 0
