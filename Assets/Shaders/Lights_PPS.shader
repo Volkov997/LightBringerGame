@@ -34,7 +34,7 @@ Shader "Custom/Lights_PPS"
             float4 Frag (Varyings input) : SV_Target
             {
                 float4 color = SAMPLE_TEXTURE2D(_BlitTexture, sampler_LinearClamp, input.texcoord).rgba;
-                float3 adjusted = clamp(float3(color.r,color.g,color.b-color.r), 0, 1);
+                float3 adjusted = color.rgb;
                 return adjusted.x * _ColorA + adjusted.y * _ColorB + adjusted.z * _ColorC;
                 //return 1;
             }
